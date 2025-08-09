@@ -4,13 +4,15 @@ class area_finder;
 class data_value
 {  public:
    int x,y;
-   friend class area_finder;
+   
     public:
+    
     data_value()
     {
       cout<<"Enter Height and Weidth : ";
       cin>>x>>y;
     }
+    friend void area_finder :: aree(data_value obj);
     
 };
 class area_finder
