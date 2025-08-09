@@ -13,9 +13,7 @@ class result
       c=x;
       d=y;
     }
-    friend void average();
-};
-void average(result obj,result obj2)
+    void average(result obj,result obj2)
 {
    int arr[4]={obj.a,obj.b,obj2.c,obj2.d};
    for(int i=0;i<4;i++)
@@ -37,13 +35,15 @@ void average(result obj,result obj2)
    float average=sum/3.0;
    cout<<average<<endl;
 }
+};
+
 int main()
 {
     result obj;
     int x,y;
     cin>>x>>y;
    result obj2(x,y);
-    average(obj,obj2);
+    obj2.average(obj,obj2);
     
     return 0;
 
