@@ -30,5 +30,6 @@ int main()
     
     obj.base_class::number();
     obj.base_class::number(10);
+    obj.base_class::number(65,33);
     obj.number(99,99);
 }

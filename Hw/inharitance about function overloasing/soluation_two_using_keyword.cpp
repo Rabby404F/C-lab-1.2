@@ -20,7 +20,7 @@ class derived_class : public base_class
 {
   public:
   
-            using base_class ::number;
+            using base_class :: number;
 
   void number(int x,int y)
   {
