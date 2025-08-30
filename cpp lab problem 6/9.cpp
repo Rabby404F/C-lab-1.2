@@ -4,18 +4,18 @@ namespace university
 {
     namespace department
     {
-        class mathod
+        class student
         {
             public:
             void display()
             {
-                cout<<"This is mathod class"<<endl;
+                cout<<"This is student class"<<endl;
             }
         };
     }
 }
 int main()
 {
-    university::department::mathod obj;
+    university::department::student obj;
     obj.display();
 }
