@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
-template<typename t,typename t1>
-void swap(t a, t1 b)
+template<typename t>
+void swap(t a, t b)
 {
    t temp=a;
    a=b;
@@ -12,11 +12,11 @@ void swap(t a, t1 b)
 int main()
 {
     cout<<"For int "<<endl;
-    swap<int ,int>(10 ,15);
+    swap<int >(10 ,15);
     cout<<"For string "<<endl;
-    swap<string,string>("Eyasin","Bhuiyan");
+    swap<string>("Eyasin","Bhuiyan");
     cout<<"For double "<<endl;
-    swap<double,double>(174.4846474,56.94754);
+    swap<double>(174.4846474,56.94754);
 
     return 0;
 }
