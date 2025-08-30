@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
-template<typename t=double , typename t1=double >
-t add(t a,t1 b)
+template<typename t=double  >
+t add(t a,t b)
 {
   t sum=a+b;
   return sum;
@@ -10,9 +10,9 @@ t add(t a,t1 b)
 int main()
 {
     cout<<"For integer :"<<endl;
-    cout<<add<int,int>(5,6)<<endl;
+    cout<<add<int>(5,6)<<endl;
     cout<<"For float :"<<endl;
-    cout<<add<float,float>(5.77f,6.66f)<<endl;
+    cout<<add<float>(5.77f,6.66f)<<endl;
     cout<<"For default :"<<endl;
     cout<<add(4.686686768,6.4957857585)<<endl;
 }

@@ -12,7 +12,7 @@ void swap(t a, t b)
 int main()
 {
     cout<<"For int "<<endl;
-    swap<int >(10 ,15);
+    swap<int>(10 ,15);
     cout<<"For string "<<endl;
     swap<string>("Eyasin","Bhuiyan");
     cout<<"For double "<<endl;
