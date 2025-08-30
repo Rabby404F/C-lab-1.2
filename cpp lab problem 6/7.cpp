@@ -2,11 +2,11 @@
 using namespace std;
 namespace physics
 {
-   string lab_name="phy";
+   string lab_name="Find wave length";
 }
 namespace chemistry
 {
-    string lab_name="che";
+    string lab_name="atomic structure";
 }
 int main()
 {
