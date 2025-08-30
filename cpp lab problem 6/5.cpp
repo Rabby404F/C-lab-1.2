@@ -23,10 +23,7 @@ class calculator
 };
 int main()
 {
-    cout<<"For integer :"<<endl;
-    calculator <int,int> obj(6,7);
-    obj.sum();
-    obj.mul();
+    
 
     cout<<"For float :"<<endl;
     calculator <int,float> obj1(5,7.89f);
