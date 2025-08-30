@@ -6,13 +6,13 @@ class Box
     private:
     T value;
     public:
-    set_value(T n)
+    void set_value(T n)
     {
        value=n;
     }
-    get_value()
+    T get_value()
     {
-        cout<<value<<endl;
+        return value;
     }
 };
 int main()
@@ -20,11 +20,11 @@ int main()
     cout<<"For integer"<<endl;
     Box <int>obj;
     obj.set_value(76);
-    obj.get_value();
+    cout<<obj.get_value()<<endl;
     
     cout<<"For string "<<endl;
     Box <string> obj1;
     obj1.set_value("Eyasin");
-    obj1.get_value();
+    cout<<obj1.get_value()<<endl;
     
 }
