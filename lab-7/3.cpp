@@ -23,9 +23,11 @@ int main()
         }
         
        }
-       cout<<l_cnt<<" "<<w_cnt<<" "<<c_cnt<<endl;
+       
 
     }
-    cout<<l_cnt<<" "<<w_cnt<<" "<<c_cnt<<endl;
+    cout<<"Line : "<<l_cnt<<endl;
+    cout<<"Word : "<<w_cnt<<endl;
+    cout<<"character : "<<c_cnt<<endl;
 
 }
